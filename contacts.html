@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us - Laser247 | 24/7 Customer support & assistance</title>
-    <meta name="description" content="Get in touch with Laser247 customer support team. 24/7 live chat, email support, and comprehensive help for all your gaming and betting queries.">
+    <title>Contact Us - Laser247 | Customer Support & Assistance</title>
+    <meta name="description" content="Get in touch with Laser247 customer support team. 24/7 assistance available through live chat, email, and phone. Professional gaming support when you need it.">
     <link rel="icon" href="favicon.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -17,564 +14,392 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #0a0a0a;
-            background: #fafafa;
+            color: #333;
+            background-color: #f8f9fa;
         }
 
-        .header {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-            padding: 1.5rem 0;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        .container-site-043 {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header-site-043 {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            padding: 15px 0;
             position: sticky;
             top: 0;
-            z-index: 1000;
-            backdrop-filter: blur(10px);
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .nav {
+        .header-content-site-043 {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .logo img {
+        .logo-site-043 img {
             height: 50px;
             width: auto;
-            filter: brightness(1.1);
         }
 
-        .nav-links {
+        .nav-site-043 ul {
             display: flex;
             list-style: none;
-            gap: 3rem;
+            gap: 30px;
         }
 
-        .nav-links a {
-            color: #ffffff;
+        .nav-site-043 a {
+            color: #fff;
             text-decoration: none;
             font-weight: 500;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            position: relative;
+            transition: color 0.3s;
         }
 
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: linear-gradient(90deg, #ff6b35, #f7931e);
-            transition: width 0.3s ease;
+        .nav-site-043 a:hover {
+            color: #ffd700;
         }
 
-        .nav-links a:hover::after,
-        .nav-links a.active::after {
-            width: 100%;
-        }
-
-        .nav-links a:hover,
-        .nav-links a.active {
-            color: #ff6b35;
-        }
-
-        .page-header {
-            background: linear-gradient(135deg, #0a0a0a 0%, #2d2d2d 50%, #1a1a1a 100%);
-            padding: 6rem 0;
+        .page-header-site-043 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 80px 0;
             text-align: center;
             color: white;
-            position: relative;
-            overflow: hidden;
         }
 
-        .page-header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80') center/cover;
-            opacity: 0.1;
-            z-index: 1;
+        .page-header-site-043 h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
-        .page-header > * {
-            position: relative;
-            z-index: 2;
-        }
-
-        .page-header h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #ffffff, #ff6b35);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .page-header p {
-            font-size: 1.3rem;
+        .page-header-site-043 p {
+            font-size: 1.2rem;
             opacity: 0.9;
         }
 
-        .contact-section {
-            padding: 6rem 0;
+        .contact-section-site-043 {
+            padding: 80px 0;
             background: white;
         }
 
-        .contact-intro {
-            text-align: center;
-            font-size: 1.2rem;
-            margin-bottom: 4rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .contact-grid {
+        .contact-grid-site-043 {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            margin-top: 2rem;
+            gap: 60px;
+            margin-bottom: 60px;
         }
 
-        .contact-form {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 3rem;
-            border-radius: 25px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-            border: 1px solid #e9ecef;
+        .contact-form-site-043 {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
         }
 
-        .contact-form h2 {
-            margin-bottom: 2rem;
-            color: #0a0a0a;
+        .contact-form-site-043 h2 {
             font-size: 2rem;
-            font-weight: 700;
+            margin-bottom: 30px;
+            color: #333;
         }
 
-        .form-group {
-            margin-bottom: 2rem;
+        .form-group-site-043 {
+            margin-bottom: 25px;
         }
 
-        .form-group label {
+        .form-group-site-043 label {
             display: block;
-            margin-bottom: 0.8rem;
+            margin-bottom: 8px;
             font-weight: 600;
-            color: #0a0a0a;
-            font-size: 1rem;
+            color: #555;
         }
 
-        .form-group input,
-        .form-group textarea {
+        .form-group-site-043 input,
+        .form-group-site-043 textarea {
             width: 100%;
-            padding: 1rem;
-            border: 2px solid #e9ecef;
-            border-radius: 12px;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
             font-size: 1rem;
-            transition: all 0.3s ease;
-            background: white;
+            transition: border-color 0.3s;
         }
 
-        .form-group input:focus,
-        .form-group textarea:focus {
+        .form-group-site-043 input:focus,
+        .form-group-site-043 textarea:focus {
             outline: none;
-            border-color: #ff6b35;
-            box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+            border-color: #667eea;
         }
 
-        .form-group textarea {
-            min-height: 140px;
+        .form-group-site-043 textarea {
+            height: 120px;
             resize: vertical;
         }
 
-        .btn {
-            padding: 1rem 2.5rem;
+        .btn-site-043 {
+            padding: 15px 35px;
             border: none;
             border-radius: 50px;
             font-size: 1.1rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3s;
             text-decoration: none;
             display: inline-block;
-            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            background: linear-gradient(45deg, #667eea, #764ba2);
             color: white;
-            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
         }
 
-        .btn:hover {
+        .btn-site-043:hover {
             transform: translateY(-3px);
-            box-shadow: 0 12px 35px rgba(255, 107, 53, 0.5);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
 
-        .contact-info {
-            padding: 2rem 0;
-        }
-
-        .contact-card {
+        .contact-info-site-043 {
             background: white;
-            padding: 2.5rem;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
-            margin-bottom: 2.5rem;
-            border-left: 5px solid #ff6b35;
-            transition: transform 0.3s ease;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
         }
 
-        .contact-card:hover {
-            transform: translateY(-5px);
+        .contact-info-site-043 h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #333;
         }
 
-        .contact-card h3 {
-            color: #ff6b35;
-            margin-bottom: 1.5rem;
-            font-size: 1.4rem;
-            font-weight: 600;
+        .contact-item-site-043 {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
         }
 
-        .contact-card p {
-            margin-bottom: 0.8rem;
-            color: #4a5568;
-            font-size: 1rem;
+        .contact-item-site-043 h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #333;
         }
 
-        .contact-card strong {
-            color: #0a0a0a;
+        .contact-item-site-043 p {
+            color: #666;
+            margin-bottom: 8px;
         }
 
-        .office-banner {
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80');
+        .banner-office-site-043 {
+            height: 300px;
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=400&fit=crop');
             background-size: cover;
             background-position: center;
-            height: 400px;
-            border-radius: 25px;
+            border-radius: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             text-align: center;
-            margin: 4rem 0;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
         }
 
-        .office-banner-content h3 {
+        .banner-office-site-043 h3 {
             font-size: 2.5rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
 
-        .office-banner-content p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-
-        .support-methods {
-            padding: 6rem 0;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-        }
-
-        .support-methods h2 {
-            text-align: center;
-            margin-bottom: 4rem;
-            color: #0a0a0a;
-            font-size: 2.5rem;
-            font-weight: 700;
-        }
-
-        .methods-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2.5rem;
-            margin-top: 2rem;
-        }
-
-        .method-card {
-            background: white;
-            padding: 2.5rem;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
-            text-align: center;
-            transition: transform 0.3s ease;
-            border: 1px solid #f1f3f4;
-        }
-
-        .method-card:hover {
-            transform: translateY(-10px);
-        }
-
-        .method-card h3 {
-            color: #ff6b35;
-            margin-bottom: 1.5rem;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-
-        .method-card .icon {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            color: #ff6b35;
-            display: block;
-        }
-
-        .method-card p {
-            color: #4a5568;
-            line-height: 1.7;
-        }
-
-        .footer {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+        .footer-site-043 {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
             color: white;
-            padding: 4rem 0 1.5rem;
+            padding: 50px 0 20px;
         }
 
-        .footer-content {
+        .footer-content-site-043 {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 3rem;
-            margin-bottom: 3rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
         }
 
-        .footer-section h4 {
-            color: #ff6b35;
-            margin-bottom: 1.5rem;
+        .footer-section-site-043 h4 {
+            margin-bottom: 20px;
             font-size: 1.2rem;
-            font-weight: 600;
         }
 
-        .footer-section a {
-            color: #cccccc;
+        .footer-section-site-043 a {
+            color: #ccc;
             text-decoration: none;
             display: block;
-            margin-bottom: 0.8rem;
-            transition: color 0.3s ease;
+            margin-bottom: 10px;
+            transition: color 0.3s;
         }
 
-        .footer-section a:hover {
-            color: #ff6b35;
+        .footer-section-site-043 a:hover {
+            color: #ffd700;
         }
 
-        .footer-bottom {
-            border-top: 1px solid #333;
-            padding-top: 1.5rem;
+        .footer-bottom-site-043 {
+            border-top: 1px solid #444;
+            padding-top: 20px;
             text-align: center;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
         }
 
-        .age-restriction {
-            background: linear-gradient(135deg, #dc3545, #c82333);
+        .age-restriction-site-043 {
+            background: #ff6b6b;
             color: white;
-            padding: 0.8rem 1.5rem;
-            border-radius: 30px;
-            font-size: 1rem;
-            font-weight: 700;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: 600;
         }
 
         @media (max-width: 768px) {
-            .nav-links {
-                flex-direction: column;
-                gap: 1.5rem;
+            .contact-grid-site-043 {
+                grid-template-columns: 1fr;
+                gap: 40px;
             }
 
-            .page-header h1 {
+            .nav-site-043 ul {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .page-header-site-043 h1 {
                 font-size: 2.5rem;
             }
 
-            .contact-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-
-            .footer-bottom {
+            .footer-bottom-site-043 {
                 flex-direction: column;
-                gap: 1.5rem;
-            }
-
-            .container {
-                padding: 0 1rem;
-            }
-
-            .methods-grid {
-                grid-template-columns: 1fr;
+                gap: 20px;
             }
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <div class="logo">
+    <header class="header-site-043">
+        <div class="container-site-043">
+            <div class="header-content-site-043">
+                <div class="logo-site-043">
                     <a href="index.html"><img src="logo.png" alt="Laser247 logo"></a>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contacts.html" class="active">Contact</a></li>
-                    <li><a href="terms-of-service.html">Terms</a></li>
-                    <li><a href="privacy-policy.html">Privacy</a></li>
-                </ul>
-            </nav>
+                <nav class="nav-site-043">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                        <li><a href="terms-of-service.html">Terms</a></li>
+                        <li><a href="privacy-policy.html">Privacy</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <section class="page-header">
-        <div class="container">
-            <h1>Contact Our Support Team</h1>
-            <p>We're here to help you 24/7 with any questions or concerns</p>
+    <section class="page-header-site-043">
+        <div class="container-site-043">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our professional support team - we're here to help 24/7</p>
         </div>
     </section>
 
-    <section class="contact-section">
-        <div class="container">
-            <p class="contact-intro">Our dedicated customer support team is committed to providing you with exceptional service and assistance. Whether you have questions about your account, need help with games, or require technical support, we're always ready to help.</p>
-            
-            <div class="contact-grid">
-                <div class="contact-form">
-                    <h2>Send Us a Message</h2>
-                    <form action="#" method="post">
-                        <div class="form-group">
+    <section class="contact-section-site-043">
+        <div class="container-site-043">
+            <div class="contact-grid-site-043">
+                <div class="contact-form-site-043">
+                    <h2>Send us a Message</h2>
+                    <form>
+                        <div class="form-group-site-043">
                             <label for="name">Full Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group-site-043">
                             <label for="email">Email Address</label>
                             <input type="email" id="email" name="email" required>
                         </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
+                        <div class="form-group-site-043">
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Please describe your inquiry in detail..." required></textarea>
+                            <textarea id="message" name="message" placeholder="Please describe your inquiry or issue in detail..." required></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button type="submit" class="btn-site-043">Send Message</button>
                     </form>
                 </div>
 
-                <div class="contact-info">
-                    <div class="contact-card">
+                <div class="contact-info-site-043">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="contact-item-site-043">
                         <h3>Customer Support</h3>
                         <p><strong>Email:</strong> support@laser247.com</p>
-                        <p><strong>Phone:</strong> +91 8000-123-456</p>
-                        <p><strong>Available:</strong> 24/7</p>
-                        <p><strong>Response Time:</strong> Within 2 hours</p>
+                        <p><strong>Phone:</strong> +1-800-LASER-24 (1-800-527-3724)</p>
+                        <p><strong>Live Chat:</strong> Available 24/7 on our website</p>
                     </div>
 
-                    <div class="contact-card">
-                        <h3>Business Address</h3>
-                        <p><strong>Address:</strong> Tower A, 15th Floor</p>
-                        <p>Business Plaza, Sector 62</p>
-                        <p>Noida, Uttar Pradesh 201309</p>
-                        <p><strong>Country:</strong> India</p>
-                    </div>
-
-                    <div class="contact-card">
+                    <div class="contact-item-site-043">
                         <h3>Business Hours</h3>
-                        <p><strong>Customer Support:</strong> 24/7</p>
-                        <p><strong>Office Hours:</strong> Mon-Fri 9:00 AM - 6:00 PM IST</p>
-                        <p><strong>Weekend Support:</strong> Available online</p>
-                        <p><strong>Technical Team:</strong> 24/7</p>
+                        <p><strong>Customer Support:</strong> 24/7 every day</p>
+                        <p><strong>Phone Support:</strong> Monday - Sunday, 24 hours</p>
+                        <p><strong>Email Response:</strong> Within 2 hours</p>
+                    </div>
+
+                    <div class="contact-item-site-043">
+                        <h3>Office Address</h3>
+                        <p><strong>Laser247 Gaming Ltd.</strong></p>
+                        <p>Suite 2506, Euro House</p>
+                        <p>Gibraltar GX11 1AA</p>
+                        <p>Gibraltar</p>
+                    </div>
+
+                    <div class="contact-item-site-043">
+                        <h3>Quick Response</h3>
+                        <p>For urgent matters, use our live chat feature for immediate assistance. Our experienced support agents are trained to help with account issues, payment questions, game rules, and technical support.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="office-banner">
-                <div class="office-banner-content">
-                    <h3>Visit Our Modern Office</h3>
-                    <p>State-of-the-art facility with 24/7 customer support operations</p>
-                </div>
+            <div class="banner-office-site-043">
+                <h3>Professional Gaming Support</h3>
             </div>
         </div>
     </section>
 
-    <section class="support-methods">
-        <div class="container">
-            <h2>Multiple Ways to Reach Us</h2>
-            <div class="methods-grid">
-                <div class="method-card">
-                    <div class="icon">💬</div>
-                    <h3>Live Chat</h3>
-                    <p>Instant support through our live chat feature. Available 24/7 with average response time under 30 seconds. Perfect for quick questions and immediate assistance.</p>
-                </div>
-                <div class="method-card">
-                    <div class="icon">📧</div>
-                    <h3>Email Support</h3>
-                    <p>Send detailed inquiries to our email support team. We respond to all emails within 2 hours during business hours and within 4 hours on weekends.</p>
-                </div>
-                <div class="method-card">
-                    <div class="icon">📞</div>
-                    <h3>Phone Support</h3>
-                    <p>Speak directly with our customer service representatives. Our phone lines are open 24/7 for urgent matters and complex account issues.</p>
-                </div>
-                <div class="method-card">
-                    <div class="icon">❓</div>
-                    <h3>Help Center</h3>
-                    <p>Browse our comprehensive knowledge base with hundreds of articles, tutorials, and step-by-step guides covering all aspects of our platform.</p>
-                </div>
-                <div class="method-card">
-                    <div class="icon">🔧</div>
-                    <h3>Technical Support</h3>
-                    <p>Specialized technical team available for platform issues, payment problems, and account access difficulties. Available round the clock.</p>
-                </div>
-                <div class="method-card">
-                    <div class="icon">🎮</div>
-                    <h3>Game Support</h3>
-                    <p>Expert assistance with game rules, betting queries, casino game issues, and platform navigation. Our gaming specialists are here to help.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="logo">
+    <footer class="footer-site-043">
+        <div class="container-site-043">
+            <div class="footer-content-site-043">
+                <div class="footer-section-site-043">
+                    <div class="logo-site-043">
                         <img src="logo.png" alt="Laser247 logo" style="height: 40px;">
                     </div>
-                    <p style="margin-top: 1rem;">India's premier online gaming platform offering sports betting and casino games with secure transactions and 24/7 support.</p>
+                    <p>Your premier destination for online gaming excellence.</p>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section-site-043">
                     <h4>Quick Links</h4>
                     <a href="index.html">Home</a>
-                    <a href="contacts.html">Contact Us</a>
+                    <a href="contacts.html">Contact</a>
                     <a href="terms-of-service.html">Terms of Service</a>
                     <a href="privacy-policy.html">Privacy Policy</a>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section-site-043">
                     <h4>Games</h4>
                     <a href="#">Sports Betting</a>
                     <a href="#">Live Casino</a>
                     <a href="#">Slot Games</a>
                     <a href="#">Table Games</a>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section-site-043">
                     <h4>Support</h4>
-                    <a href="#">24/7 Live Chat</a>
                     <a href="#">Help Center</a>
+                    <a href="#">Live Chat</a>
                     <a href="#">Responsible Gaming</a>
-                    <a href="#">Payment Methods</a>
+                    <a href="#">Contact Support</a>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="footer-bottom-site-043">
                 <div>
                     <p>&copy; 2025 Laser247. All rights reserved.</p>
                 </div>
-                <div class="age-restriction">
+                <div class="age-restriction-site-043">
                     18+
                 </div>
             </div>
