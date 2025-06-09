@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy policy - Laser247 | Data protection & user privacy</title>
+    <meta name="description" content="Read Laser247's comprehensive privacy policy. Learn how we protect your personal data, cookies usage, and security measures for safe online gaming.">
+    <link rel="icon" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #0a0a0a;
+            background: #fafafa;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+            filter: brightness(1.1);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 3rem;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #ff6b35, #f7931e);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #ff6b35;
+        }
+
+        .page-header {
+            background: linear-gradient(135deg, #0a0a0a 0%, #2d2d2d 50%, #1a1a1a 100%);
+            padding: 6rem 0;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2940&q=80') center/cover;
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        .page-header > * {
+            position: relative;
+            z-index: 2;
+        }
+
+        .page-header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff, #ff6b35);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-header p {
+            font-size: 1.3rem;
+            opacity: 0.9;
+        }
+
+        .content-section {
+            padding: 6rem 0;
+            background: white;
+        }
+
+        .policy-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .policy-content h2 {
+            color: #0a0a0a;
+            margin: 3rem 0 1.5rem;
+            font-size: 2.2rem;
+            border-bottom: 3px solid #ff6b35;
+            padding-bottom: 0.8rem;
+            font-weight: 700;
+        }
+
+        .policy-content h3 {
+            color: #ff6b35;
+            margin: 2rem 0 1rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .policy-content p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .policy-content ul,
+        .policy-content ol {
+            margin: 1.5rem 0 1.5rem 2.5rem;
+        }
+
+        .policy-content li {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+
+        .policy-content strong {
+            color: #0a0a0a;
+            font-weight: 600;
+        }
+
+        .toc {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 2.5rem;
+            border-radius: 20px;
+            margin-bottom: 3rem;
+            border-left: 5px solid #ff6b35;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+        }
+
+        .toc h3 {
+            color: #ff6b35;
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .toc a {
+            color: #0a0a0a;
+            text-decoration: none;
+            padding: 0.5rem 0;
+            display: block;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .toc a:hover {
+            color: #ff6b35;
+            padding-left: 1rem;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.3);
+        }
+
+        .highlight-box h3 {
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 2.5rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            text-align: center;
+            border: 2px solid #ff6b35;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+        }
+
+        .contact-info h3 {
+            color: #ff6b35;
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: white;
+            padding: 4rem 0 1.5rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-section h4 {
+            color: #ff6b35;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .footer-section a {
+            color: #cccccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.8rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: #ff6b35;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #333;
+            padding-top: 1.5rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .age-restriction {
+            background: linear-gradient(135deg, #dc3545, #c82333);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .page-header h1 {
+                font-size: 2.5rem;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html"><img src="logo.png" alt="Laser247 logo"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                    <li><a href="terms-of-service.html">Terms</a></li>
+                    <li><a href="privacy-policy.html" class="active">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Privacy Policy</h1>
+            <p>Your privacy and data security are our top priorities</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="policy-content">
+                <div class="toc">
+                    <h3>Table of Contents</h3>
+                    <ul>
+                        <li><a href="#data-collection">Types of Data We Collect</a></li>
+                        <li><a href="#cookies">Cookies and Tracking</a></li>
+                        <li><a href="#data-protection">Data Protection Measures</a></li>
+                        <li><a href="#data-usage">How We Use Your Data</a></li>
+                        <li><a href="#data-sharing">Data Sharing and Disclosure</a></li>
+                        <li><a href="#user-rights">Your Privacy Rights</a></li>
+                        <li><a href="#contact">Contact Information</a></li>
+                    </ul>
+                </div>
+
+                <p><strong>Last Updated:</strong> January 15, 2025</p>
+                <p><strong>Effective Date:</strong> January 15, 2025</p>
+
+                <p>At Laser247, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, store, and protect your data when you use our online gaming platform and services. By accessing or using our website and services, you consent to the practices described in this policy.</p>
+
+                <div class="highlight-box">
+                    <h3>Important Notice</h3>
+                    <p>We take your privacy seriously and have implemented comprehensive measures to protect your personal information. This policy complies with applicable data protection laws and regulations in India and international standards.</p>
+                </div>
+
+                <h2 id="data-collection">Types of Data We Collect</h2>
+
+                <h3>Personal Information</h3>
+                <p>When you register an account with Laser247, we collect personal information necessary to provide our services and comply with legal requirements. This information includes:</p>
+
+                <ul>
+                    <li><strong>Identity Information:</strong> Full name, date of birth, gender, and nationality</li>
+                    <li><strong>Contact Details:</strong> Email address, phone number, and residential address</li>
+                    <li><strong>Account Information:</strong> Username, password, and security questions</li>
+                    <li><strong>Financial Information:</strong> Bank account details, payment method information, and transaction history</li>
+                    <li><strong>Verification Documents:</strong> Government-issued ID, address proof, and other documents required for account verification</li>
+                </ul>
+
+                <h3>Technical and Usage Data</h3>
+                <p>We automatically collect certain technical information when you use our platform to improve our services and ensure security:</p>
+
+                <ul>
+                    <li><strong>Device Information:</strong> IP address, browser type, operating system, and device identifiers</li>
+                    <li><strong>Usage Data:</strong> Pages visited, time spent on site, games played, and betting patterns</li>
+                    <li><strong>Location Data:</strong> General geographic location based on IP address</li>
+                    <li><strong>Performance Data:</strong> Site performance metrics and error reports</li>
+                </ul>
+
+                <h3>Communication Data</h3>
+                <p>We maintain records of communications between you and our customer support team, including:</p>
+
+                <ul>
+                    <li>Chat transcripts and email correspondence</li>
+                    <li>Phone call recordings for quality assurance and training purposes</li>
+                    <li>Feedback and survey responses</li>
+                    <li>Marketing preferences and communication history</li>
+                </ul>
+
+                <h2 id="cookies">Cookies and Tracking Technologies</h2>
+
+                <h3>Essential Cookies</h3>
+                <p>We use essential cookies that are necessary for the basic functionality of our website. These cookies cannot be disabled and include:</p>
+
+                <ul>
+                    <li><strong>Session Cookies:</strong> Maintain your login session and account security</li>
+                    <li><strong>Security Cookies:</strong> Protect against fraud and unauthorized access</li>
+                    <li><strong>Functionality Cookies:</strong> Remember your preferences and settings</li>
+                </ul>
+
+                <h3>Analytics and Performance Cookies</h3>
+                <p>We use analytics cookies to understand how users interact with our website and improve our services:</p>
+
+                <ul>
+                    <li>Website usage statistics and user behavior analysis</li>
+                    <li>Performance monitoring and error tracking</li>
+                    <li>A/B testing for website optimization</li>
+                    <li>Traffic source identification and conversion tracking</li>
+                </ul>
+
+                <h3>Marketing and Advertising Cookies</h3>
+                <p>With your consent, we may use marketing cookies for:</p>
+
+                <ul>
+                    <li>Personalized advertising and promotional content</li>
+                    <li>Retargeting campaigns on third-party websites</li>
+                    <li>Social media integration and sharing features</li>
+                    <li>Marketing campaign effectiveness measurement</li>
+                </ul>
+
+                <h3>Cookie Management</h3>
+                <p>You can manage your cookie preferences through your browser settings or our cookie preference center. Please note that disabling certain cookies may affect the functionality of our website and services.</p>
+
+                <h2 id="data-protection">Data Protection and Security Measures</h2>
+
+                <h3>Technical Safeguards</h3>
+                <p>We implement industry-standard security measures to protect your personal information:</p>
+
+                <ul>
+                    <li><strong>Encryption:</strong> All data transmission is protected using SSL/TLS encryption</li>
+                    <li><strong>Secure Storage:</strong> Personal data is stored on secure servers with access controls</li>
+                    <li><strong>Firewalls:</strong> Advanced firewall systems protect against unauthorized access</li>
+                    <li><strong>Regular Security Audits:</strong> Independent security assessments and penetration testing</li>
+                    <li><strong>Data Backup:</strong> Regular encrypted backups ensure data recovery capabilities</li>
+                </ul>
+
+                <h3>Administrative Safeguards</h3>
+                <p>Our organizational security measures include:</p>
+
+                <ul>
+                    <li>Strict access controls and employee authentication procedures</li>
+                    <li>Regular staff training on data protection and privacy practices</li>
+                    <li>Comprehensive data handling policies and procedures</li>
+                    <li>Incident response procedures for potential security breaches</li>
+                    <li>Regular compliance monitoring and internal audits</li>
+                </ul>
+
+                <h3>Data Retention</h3>
+                <p>We retain your personal information only for as long as necessary to provide our services and comply with legal obligations. Our retention periods vary based on the type of data:</p>
+
+                <ul>
+                    <li><strong>Account Information:</strong> Retained while your account is active and for 7 years after closure</li>
+                    <li><strong>Transaction Records:</strong> Retained for 7 years for compliance and audit purposes</li>
+                    <li><strong>Communication Records:</strong> Retained for 3 years for quality assurance</li>
+                    <li><strong>Marketing Data:</strong> Retained until you withdraw consent or for 2 years of inactivity</li>
+                </ul>
+
+                <h2 id="data-usage">How We Use Your Data</h2>
+
+                <h3>Service Provision</h3>
+                <p>We use your personal information to provide and improve our gaming services:</p>
+
+                <ul>
+                    <li>Account creation, verification, and management</li>
+                    <li>Processing deposits, withdrawals, and other financial transactions</li>
+                    <li>Providing customer support and technical assistance</li>
+                    <li>Delivering personalized gaming experiences and recommendations</li>
+                    <li>Maintaining game integrity and preventing fraud</li>
+                </ul>
+
+                <h3>Legal Compliance</h3>
+                <p>We process your data to comply with legal and regulatory requirements:</p>
+
+                <ul>
+                    <li>Identity verification and age verification procedures</li>
+                    <li>Anti-money laundering (AML) and know your customer (KYC) compliance</li>
+                    <li>Responsible gaming monitoring and intervention</li>
+                    <li>Reporting to regulatory authorities when required</li>
+                    <li>Record keeping for audit and compliance purposes</li>
+                </ul>
+
+                <h3>Marketing and Communications</h3>
+                <p>With your consent, we may use your information for marketing purposes:</p>
+
+                <ul>
+                    <li>Sending promotional emails and newsletters</li>
+                    <li>Providing information about new games and features</li>
+                    <li>Offering personalized bonuses and promotions</li>
+                    <li>Conducting customer satisfaction surveys</li>
+                    <li>Inviting participation in tournaments and special events</li>
+                </ul>
+
+                <h2 id="data-sharing">Data Sharing and Third-Party Disclosure</h2>
+
+                <h3>Service Providers</h3>
+                <p>We may share your information with trusted third-party service providers who assist us in operating our platform:</p>
+
+                <ul>
+                    <li><strong>Payment Processors:</strong> To process deposits, withdrawals, and financial transactions</li>
+                    <li><strong>Identity Verification Services:</strong> To verify your identity and prevent fraud</li>
+                    <li><strong>Customer Support Tools:</strong> To provide efficient customer service</li>
+                    <li><strong>Marketing Platforms:</strong> To deliver relevant promotional content</li>
+                    <li><strong>Analytics Providers:</strong> To analyze website usage and improve our services</li>
+                </ul>
+
+                <h3>Legal Requirements</h3>
+                <p>We may disclose your information when required by law or to protect our legitimate interests:</p>
+
+                <ul>
+                    <li>Compliance with court orders, subpoenas, and legal processes</li>
+                    <li>Cooperation with law enforcement and regulatory investigations</li>
+                    <li>Protection of our rights, property, and safety</li>
+                    <li>Prevention of fraud, money laundering, and other illegal activities</li>
+                    <li>Enforcement of our terms and conditions</li>
+                </ul>
+
+                <h3>Business Transfers</h3>
+                <p>In the event of a merger, acquisition, or sale of assets, your personal information may be transferred to the new entity, subject to the same privacy protections outlined in this policy.</p>
+
+                <h2 id="user-rights">Your Privacy Rights</h2>
+
+                <h3>Access and Portability</h3>
+                <p>You have the right to access your personal information and request a copy of the data we hold about you. We will provide this information in a commonly used electronic format within 30 days of your request.</p>
+
+                <h3>Correction and Updates</h3>
+                <p>You can update your personal information at any time through your account settings or by contacting our customer support team. We encourage you to keep your information current and accurate.</p>
+
+                <h3>Data Deletion</h3>
+                <p>You may request deletion of your personal information, subject to legal and regulatory retention requirements. Some information may need to be retained for compliance purposes even after account closure.</p>
+
+                <h3>Marketing Opt-Out</h3>
+                <p>You can withdraw consent for marketing communications at any time by:</p>
+
+                <ul>
+                    <li>Clicking the unsubscribe link in promotional emails</li>
+                    <li>Updating your communication preferences in your account settings</li>
+                    <li>Contacting our customer support team</li>
+                    <li>Using our online preference management tools</li>
+                </ul>
+
+                <h3>Cookie Preferences</h3>
+                <p>You can manage your cookie preferences and withdraw consent for non-essential cookies through our cookie preference center or browser settings.</p>
+
+                <div class="contact-info" id="contact">
+                    <h3>Privacy Questions and Concerns</h3>
+                    <p>If you have any questions about this Privacy Policy or our data practices, please contact our Data Protection Officer:</p>
+                    <p><strong>Email:</strong> privacy@laser247.com</p>
+                    <p><strong>Address:</strong> Data Protection Officer, Laser247, Tower A, 15th Floor, Business Plaza, Sector 62, Noida, Uttar Pradesh 201309, India</p>
+                    <p>We will respond to your privacy inquiries within 30 days and work with you to address any concerns about your personal information.</p>
+                </div>
+
+                <h2>Policy Updates</h2>
+                <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or legal requirements. We will notify you of significant changes through our website, email, or other appropriate means. The updated policy will be effective immediately upon posting unless otherwise specified.</p>
+
+                <p>Your continued use of our services after policy updates constitutes acceptance of the revised terms. We encourage you to review this policy periodically to stay informed about how we protect your privacy.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="logo.png" alt="Laser247 logo" style="height: 40px;">
+                    </div>
+                    <p style="margin-top: 1rem;">India's premier online gaming platform offering sports betting and casino games with secure transactions and 24/7 support.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="contacts.html">Contact Us</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Games</h4>
+                    <a href="#">Sports Betting</a>
+                    <a href="#">Live Casino</a>
+                    <a href="#">Slot Games</a>
+                    <a href="#">Table Games</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <a href="#">24/7 Live Chat</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Responsible Gaming</a>
+                    <a href="#">Payment Methods</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>
+                    <p>&copy; 2025 Laser247. All rights reserved.</p>
+                </div>
+                <div class="age-restriction">
+                    18+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
